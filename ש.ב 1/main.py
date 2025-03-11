@@ -28,7 +28,7 @@ def cache(func):
 @cache
 def fibunachi(num):
     if num <= 1:
-        return num
+        return num+1
     return fibunachi(num - 1) + fibunachi(num - 2)
 
 print(fibunachi(10))
